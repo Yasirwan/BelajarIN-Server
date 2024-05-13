@@ -1,4 +1,4 @@
-{"version": "34.1.11",
+{"version": 34,
 "builds": [
   { "src": "index.js", "use": "@vercel/node" }
 ],
