@@ -31,6 +31,8 @@ const content3Router = require("./routes/Content3.Route");
 const assignmentRouter = require("./routes/Assignment.Route");
 const testRouter = require("./routes/Test.Route");
 const DoubtRouter = require("./routes/Doubt.Route");
+const Doubt2Router = require("./routes/Doubt2.Route");
+const Doubt3Router = require("./routes/Doubt3.Route");
 const DashboardRouter = require("./routes/Dashboard.Route");
 const TestResultRouter = require("./routes/TestResult.Route");
 // const quiz = require('./routes/quiz')
@@ -59,6 +61,8 @@ app.use("/content3", content3Router);
 app.use("/assignment", assignmentRouter);
 app.use("/test", testRouter);
 app.use("/doubt", DoubtRouter);
+app.use("/doubt2", Doubt2Router);
+app.use("/doubt3", Doubt3Router);
 app.use("/dashboard", DashboardRouter);
 app.use("/test-result", TestResultRouter);
 // app.use(quiz)
