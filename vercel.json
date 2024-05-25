@@ -7,7 +7,7 @@
       { "src": "/(.*)", "dest": "index.js" }
     ],
     "env": {
-      "dbURL": "mongodb+srv://iyas:ayang010599@cluster0.re0htel.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+      "dbURL": "mongodb+srv://iyas:ayang010599@cluster0.re0htel.mongodb.net/belajarin?retryWrites=true&w=majority&appName=Cluster0",
       "port": "4500"
     }
   }
